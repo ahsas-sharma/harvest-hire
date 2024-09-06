@@ -10,15 +10,15 @@ export default function Home() {
       <section className="py-24 mt-12">
         <div className="mx-auto lg:max-w-7xl w-full px-5 sm:px-10 md:px-12 lg:px-5 flex flex-col lg:flex-row lg:items-stretch gap-10">
           <div className="lg:w-1/2 lg:py-10 xl:py-12 text-center lg:text-left max-w-2xl md:max-w-3xl mx-auto ">
-            <h1 className="font-semibold leading-tight text-green-950 dark:text-white text-4xl md:text-5xl lg:text-6xl">
-              <div className="relative after:absolute after:inset-x-0 after:h-3 after:bg-green-100 dark:after:bg-green-950 after:bottom-2 inline-block px-2">
+            <h1 className="font-semibold leading-tight text-green-950  text-4xl md:text-5xl lg:text-6xl">
+              <div className="relative after:absolute after:inset-x-0 after:h-3 after:bg-green-100after:bottom-2 inline-block px-2">
                 <span className="relative z-10 text-transparent bg-clip-text bg-gradient-to-tr from-green-400 to-green-800">
                   Boost
                 </span>
               </div>{" "}
               Farm Yields Without Costly Machinery! 🌾
             </h1>
-            <p className="mt-8 text-gray-700 dark:text-gray-300">
+            <p className="mt-8 text-gray-700">
               HarvestHire provides top-quality farm equipment on rent, whenever
               you need it. Boost efficiency and productivity, all while saving
               on hefty machinery costs.
@@ -48,7 +48,7 @@ export default function Home() {
               </Link>
               <Link
                 to="/equipments"
-                className="flex items-center justify-center gap-x-2 px-5 py-2.5 border border-gray-200 text-green-900 dark:border-gray-800 dark:text-white z-20 hover:bg-yellow-400"
+                className="flex items-center justify-center gap-x-2 px-5 py-2.5 border border-gray-200 text-green-900  z-20 hover:bg-yellow-400"
               >
                 Browse Equipments
               </Link>
